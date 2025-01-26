@@ -135,5 +135,5 @@ def main():
             makespan_fig = plot_makespan_evolution(iteration_makespans)
             st.pyplot(makespan_fig)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
