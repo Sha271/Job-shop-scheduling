@@ -78,7 +78,7 @@ def main():
     st.title("Ant Colony Optimization for Job Shop Scheduling Problem")
 
     # Upload JSSP Dataset
-    uploaded_file = st.file_uploader("Upload a JSSP dataset (CSV format)", type=["csv"])
+    uploaded_file = st.file_uploader("Upload a dataset (CSV format)", type=["csv"])
 
     if uploaded_file:
         job_data_df = pd.read_csv(uploaded_file)
